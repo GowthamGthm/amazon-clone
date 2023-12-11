@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border : border-box;
+    font-family: Arial;
+}
+
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 60px;
+    background-color: #131921;
+    justify-content: space-evenly;
+
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/* first box */
+
+.amazon-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.logo {
+    background-image: url(./assets/images/amazon_logo.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 4px;
+
+}
+
+/*  navbar second box  */
+.deliver-to-container {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.address-two-container {
+    display: flex;
+}
+
+.address-one {
+    font-size: 12px;
+    padding-left: 18px;
+}
+
+.address-two {
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+
+/* third box */
+.search-bar-container {
+ display: flex;
+ width: 720px;
+ height: 40px;
+ margin-left: 10px;
+ justify-content: center;
+ align-items: center;
+ border: 0;
+}
+
+.search-selector {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #D4D4D4;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.search-icon {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3A847;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-glow {
+    border: 3px solid transparent;
+    box-shadow: 0px 0px 25px transparent;
+}
+
+.border-glow:hover {
+    border: 3px solid orange;
+    box-shadow: 0px 0px 25px orange;
+}
+
+/* country box - fourth box*/
+
+.country-container {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.country-logo {
+    width: 29px;
+    height : 24px;
+}
+
+.country-lang {
+    border: none;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 7px;
+    font-weight: 900;
+}
+
+.in-carrot {
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+/* fifth box */
+
+.sign-in-container {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 130px;
+    padding-right: 5px;
+}
+
+.sign-in-one {
+    font-size: 12px;
+}
+
+.sign-in-two {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.sign-in-two-container {
+    display: flex;
+    width: 100%;
+}
+
+.carrot-down {
+    padding-top: 0px;
+}
+
+/* sixth order */
+.returns-orders-containers {
+   padding-left: 10px;
+   padding-top: 10px;
+   width: 70px;
+}
+
+.orders-text {
+    display: flex;
+}
+
+.p-one {
+    font-size: 12px;
+}
+
+.p-two {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* seventh box */
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-right: 0px;
+    width: 85px;
+    padding-left: 10px;
+}
+
+.cart-text {
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+.cart-icon {
+    font-size: 25px;
+}
+
+/* second row container */
+.second-row-container {
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.second-row-container p {
+    font-size: 14px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.second-row-container p:hover {
+    border: 2px solid white;
+}
+
+/* hero container */
+
+.hero-container {
+    background-image: url(./assets/images/banner-img.jpg);
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10px; */
+    padding: 10px;
+}
+
+.left-image-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border: 1px solid black ;
+    width: 60px;
+    height: 150px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.894); 
+    /* justify-content: space-between; */
+}
+
+.left-image-button i{
+    color: rgba(0, 0, 0, 0.498);
+    font-size: 3em;
+}
+
+.left-right-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main categories */
+.categories-container {
+    background-color: #EBE9E7;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.categories-item-container {
+    width: 343px;
+    height: 420px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    
+}
+
+.category-item {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right : 10px;
+    margin-bottom: 10px;
+
+}
+
+.p-center {
+    text-align: center;
+    color: #0f1111;
+    font-size: 12px;
+}
+
+.category-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.category-header {
+    padding-top: 15px;
+    font-size: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.see-all-offers {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* footer */
+
+.footer-link-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: #232F3E;
+    color: white;
+    padding-bottom: 40px;
+
+}
+
+.footer-link-header{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.footer-link-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #DDDDDD;
+}
+
+.footer-link-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-line {
+    border: 0.1px solid grey;
+}
+
+.footer-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:  #232F3E;
+}
+
+.footer-icon {
+    width: 100px;
+    height: 70px
+}
